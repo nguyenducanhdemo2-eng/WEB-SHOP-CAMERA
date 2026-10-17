@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CameraShop - Góp ý</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <a class="logo" href="index.html">CameraShop</a>
+      <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="gioi-thieu.html">Giới thiệu</a>
+        <a href="san-pham.html">Sản phẩm</a>
+        <a href="lien-he.html">Liên hệ</a>
+        <a class="active" href="gop-y.html">Góp ý</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1>Góp ý</h1>
+    <form class="feedback-form" action="#" method="post">
+      <label for="fullname">Họ và tên</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="feedback-email">Email</label>
+      <input type="email" id="feedback-email" name="email" required>
+
+      <label for="rating">Mức độ hài lòng</label>
+      <select id="rating" name="rating">
+        <option>Rất hài lòng</option>
+        <option>Hài lòng</option>
+        <option>Bình thường</option>
+        <option>Chưa hài lòng</option>
+      </select>
+
+      <label for="feedback">Nội dung góp ý</label>
+      <textarea id="feedback" name="feedback" rows="6" required></textarea>
+
+      <button type="submit">Gửi góp ý</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>CameraShop | Website bán máy ảnh</p>
+  </footer>
+</body>
+</html>

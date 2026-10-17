@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CameraShop - Liên hệ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <a class="logo" href="index.html">CameraShop</a>
+      <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="gioi-thieu.html">Giới thiệu</a>
+        <a href="san-pham.html">Sản phẩm</a>
+        <a class="active" href="lien-he.html">Liên hệ</a>
+        <a href="gop-y.html">Góp ý</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1>Liên hệ</h1>
+    <div class="contact-box">
+      <section class="store-info">
+        <h2>Thông tin cửa hàng</h2>
+        <p><strong>Địa chỉ:</strong><br>13 Trịnh Văn Bô, Hà Nội</p>
+        <p><strong>Điện thoại:</strong><br>0123 456 789</p>
+        <p><strong>Email:</strong><br>camerashop@example.com</p>
+        <p class="sample-note">Thông tin dùng cho bài tập.</p>
+      </section>
+
+      <form action="#" method="post">
+        <h2>Thông tin liên hệ đặt mua</h2>
+        <label for="name">Họ và tên</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Số điện thoại</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Nội dung cần tư vấn</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Gửi liên hệ</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>CameraShop | Website bán máy ảnh</p>
+  </footer>
+</body>
+</html>
